@@ -1,0 +1,22 @@
+venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.pyo
+*.pyd
+
+# Notebook / training artifacts
+*.csv
+*.npy
+*.pt
+*.bin
+*.ckpt
+model_checkpoint*/
+saved_model/
+results_*/
+logs/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
